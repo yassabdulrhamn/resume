@@ -1,377 +1,1238 @@
-<!DOCTYPE html>
-<html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/bootstrap-responsive.css">
-        <link rel="stylesheet" href="css/custom-styles.css">
-        <link rel="stylesheet" href="css/font-awesome.css">
-        <link rel="stylesheet" href="css/component.css">
-        <link rel="stylesheet" href="css/font-awesome-ie7.css">
-       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-        <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    </head>
-    <body>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Trimatrix Lab">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
 
 
-             <!-- main content starts here -->
+    <title>Flatrica | Material CV/Resume</title>
+    <link rel="icon" href="images/fav-icon.png">
 
-            <div class="container b-radius-top">
-                <div class="top-bar b-radius">
-                    <div class="top-content">
-                        <ul>
-                            <li><a href="#"><i class="fw-icon-link icon"></i>www.healthcare.com</a></li>
-                            <li><a href="#"><i class="fw-icon-envelope-alt icon"></i>info@healthcare.com</a></li>
-                            <li><a href="#"><i class="fw-icon-phone icon"></i>8888 88888</a></li>
-                        </ul>
-                    </div>
-                    <div class="social">
-                        <ul>
-                            <li><a href="#"><i class="fw-icon-facebook icon"></i></a></li>
-                            <li><a href="#"><i class="fw-icon-twitter icon"></i></a></li>
-                            <li><a href="#"><i class="fw-icon-linkedin icon"></i></a></li>
-                        </ul>
+    <!--APPLE TOUCH ICON-->
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+
+    <!-- GOOGLE FONT -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
+
+    <!-- MATERIAL ICON FONT -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link href="stylesheets/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- ANIMATION -->
+    <link href="stylesheets/animate.min.css" rel="stylesheet">
+
+
+    <!-- MATERIALIZE -->
+    <link href="stylesheets/materialize.css" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- CUSTOM STYLE -->
+    <link href="stylesheets/style.css" id="switch_style" rel="stylesheet">
+
+</head>
+<body>
+
+
+<!--==========================================
+                  PRE-LOADER
+===========================================-->
+<div id="loading">
+    <div id="loading-center">
+        <div id="loading-center-absolute">
+            <div class="box-holder animated bounceInDown">
+                <span class="load-box"><span class="box-inner"></span></span>
+            </div>
+            <!-- NAME & STATUS -->
+            <div class="text-holder text-center">
+                <h2>Yaser Abdulrahman</h2>
+                <h6>Full Stack Developer</h6>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--==========================================
+                    HEADER
+===========================================-->
+<header id="home">
+    <nav id="theMenu" class="menu">
+
+        <!--MENU-->
+        <div id="menu-options" class="menu-wrap">
+
+            <!--PERSONAL LOGO-->
+            <div class="logo-flat">
+                <img alt="personal-logo" class="img-responsive" src="images/john.png">
+            </div>
+            <br>
+
+            <!--OPTIONS-->
+            <a href="#home"><i class="title-icon fa fa-user"></i>Home</a>
+            <a href="#about"><i class="title-icon fa fa-dashboard"></i>About</a>
+            <a href="#education"><i class="title-icon fa fa-graduation-cap"></i>Education</a>
+            <a href="#skills"><i class="title-icon fa fa-sliders"></i>Skills</a>
+            <a href="#experience"><i class="title-icon fa fa-suitcase"></i>Experience</a>
+            <a href="#portfolios"><i class="title-icon fa fa-archive"></i>Portfolios</a>
+            <a href="#interest"><i class="title-icon fa fa-heart"></i>Interest</a>
+            <a href="#testimonials"><i class="title-icon fa fa-users"></i>Testimonials</a>
+            <a href="#pricing-table"><i class="title-icon fa fa-money"></i>Pricing</a>
+            <a href="#blog"><i class="title-icon fa fa-pencil-square"></i>Blog</a>
+            <a href="#contact"><i class="title-icon fa fa-envelope"></i>Contact</a>
+        </div>
+
+        <!-- MENU BUTTON -->
+        <div id="menuToggle">
+            <div class="toggle-normal">
+                <i class="material-icons top-bar">remove</i>
+                <i class="material-icons middle-bar">remove</i>
+                <i class="material-icons bottom-bar">remove</i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header-background section">
+        <div id="v-card-holder">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+
+                        <!-- V-CARD -->
+                        <div id="v-card" class="card">
+
+                            <!-- PROFILE PICTURE -->
+                            <div id="profile" class="right">
+                                <img alt="profile-image" class="img-responsive" src="images/profile.jpg">
+                                <div class="slant"></div>
+                                <div class="btn-floating btn-large add-btn">
+                                    <i class="material-icons">add</i></div>
+                            </div>
+
+                            <div class="card-content">
+
+                                <!-- NAME & STATUS -->
+                                <div class="info-headings">
+                                    <h4 class="text-uppercase left">Yaser Abdulrahman</h4>
+                                    <h6 class="text-capitalize left">Full Stack Developer</h6>
+                                </div>
+
+                                <!-- CONTACT INFO -->
+                                <div class="infos">
+                                    <ul class="profile-list">
+                                        <li class="clearfix">
+                                            <span class="title"><i class="material-icons">email</i></span>
+                                            <span><a class="content" href="mailto:Yaserabdulrahman@outlook.com">Yaserabdulrahman@outlook.com</a></span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <span class="title"><i class="material-icons">language</i></span>
+                                            <span class="content">yourpersonalwebsite.com</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <span class="title"><i class="material-icons">phone</i></span>
+                                            <span><a class="content" href="tel:+966559979198">+966 530 750 042</a></span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <span class="title"><i class="material-icons">place</i></span>
+                                            <span class="content">Riyadh, Saudi Arabia</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <!--LINKS-->
+                                <div class="links">
+                                  <!-- LINKEDIN-->
+                                  <a href="https://www.linkedin.com/in/yaser-abdulrahman/" class="social  btn-floating blue darken-3"><i
+                                          class="fa fa-linkedin"></i></a>
+                                    <!-- FACEBOOK-->
+                                    <a href="https://api.whatsapp.com/send?phone=+966530750042" id="first_one"
+                                       class="social btn-floating green"><i
+                                            class="fa fa-whatsapp"></i></a>
+                                    <!-- TWITTER-->
+                                    <a href="#" class="social  btn-floating red darken-3"><i
+                                            class="fa fa-youtube"></i></a>
+                                    <!-- GOOGLE+-->
+                                    <a href="https://github.com/yassabdulrhamn" class="social  btn-floating purple"><i
+                                            class="fa fa-github"></i></a>
+
+                                    <!-- RSS-->
+                                    <a href="https://www.behance.net/yaserabdulb26f" class="social  btn-floating blue darken-2"><i
+                                            class="fa fa-behance"></i></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="site-header">
+            </div>
+        </div>
+    </div>
+</header>
 
-
-                     <!-- Site Name starts here -->
-
-                    <div class="site-name">
-                        <h1>Healthcare Information System</h1>
-                        <h5>Health care</h5>
+<!--==========================================
+                   ABOUT
+===========================================-->
+<div id="about" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- DETAILS -->
+                <div id="about-card" class="card">
+                    <div class="card-content">
+                        <!-- ABOUT PARAGRAPH -->
+                        <p>
+                          • Full stack developer. Providing and developing new systems, aiming to leave behind paper work and uses technology to increase the quality of our work.
+                        </p>
+                        <br>
+                        <p>
+                          • Self-motivated, optimistic. Well-equipped in Web development, database software, and statistics. Aiming to enhance my working knowledge, my personal skills as well as my team for the benefit of the management.
+                        </p>
                     </div>
 
-                    <!-- Site Name ends -->
-
-                     <!-- Menu starts here -->
-                    <div class="menu">
-                        <div class="navbar">
-                            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                               <i class="fw-icon-th-list"></i>
-                            </a>
-                            <div class="nav-collapse collapse">
-                              <ul class="nav">
-                                <!-- class="active" -->
-                                  <li class="active"><a href="index.html">Home</a></li>
-                                  <li><a href="Distributequestionnaire.php">Distribute</a></li>
-                                  <li><a href="submissions.php">Build questionnaire</a></li>
-                                  <li><a href="evaluate.php">Evaluate</a></li>
-                                  <li><a href="dashboard.php"> Dashboard</a></li>
-                              </ul>
-                                <form class="search-form">
-                                    <div class="input-append ">
-                                        <input type="text" class="search-query input-large" placeholder="site search">
-                                        <button type="submit" class="btn"><i class="icon-search"></i></button>
-                                    </div>
-                                </form>
-                            </div>
+                    <!-- BUTTONS -->
+                    <div id="about-btn" class="card-action">
+                        <div class="about-btn">
+                            <!-- DOWNLOAD CV BUTTON -->
+                            <a href="#" class="btn waves-effect">Download CV</a>
+                            <!-- CONTACT BUTTON -->
+                            <a href="#contact" class="btn waves-effect">Contact Me</a>
                         </div>
-                    </div>
-
-                    <!-- Menu ends -->
-                </div>
-
-                <!-- Banner starts here -->
-
-                <div class="banner">
-                    <div class="carousel slide" id="myCarousel">
-                                    <!-- Carousel items -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img src="img/2.jpg" alt="">
-                                <div class="carousel-caption">
-                                    <i class="fw-icon-desktop"></i>
-                                  <h2>healthcare</h2>
-                                  <h1>healthcare information system</h1>
-                                  <a href="#myModal" role="button" class="btn" data-toggle="modal"> more info</a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="img/2.jpg" alt="">
-                                <div class="carousel-caption">
-                                    <i class="fw-icon-desktop"></i>
-                                  <h2>healthcare</h2>
-                                  <h1>healthcare information system</h1>
-                                  <a href="#myModal" role="button" class="btn" data-toggle="modal"> more info</a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="img/2.jpg" alt="">
-                                <div class="carousel-caption">
-                                    <i class="fw-icon-desktop"></i>
-                                 <h2>healthcare</h2>
-                                  <h1>healthcare information system</h1>
-                                  <a href="#myModal" role="button" class="btn" data-toggle="modal"> more info</a>
-                                </div>
-                            </div>
-                        </div>
-                        <a data-slide="prev" href="#myCarousel" class="carousel-control left"><i class="fw-icon-chevron-left"></i></a>
-                        <a data-slide="next" href="#myCarousel" class="carousel-control right"><i class="fw-icon-chevron-right"></i></a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-                 <!-- Banner ends here -->
+<!--==========================================
+                   EDUCATION
+===========================================-->
+<section id="education" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><i class="title-icon fa fa-graduation-cap"></i>Education</h4>
+        </div>
 
+        <div id="timeline-education">
 
-                 <!-- Main content starts here -->
-
-                <div class="featured-blocks"  style="padding-left: 40px;">
-                    <div class="row-fluid">
-                    <div class="featured-heading">
-                        <h1>Nunc dig nissi</h1>
-                        <h5>Phasellus ultrices nulla quis</h5>
+            <!-- FIRST TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>D</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">High Diploma of Programming</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>College of Telecom and Information, Riyadh</small>
+                            </h6>
+                            <h6>
+                                <small>May 2013 - Feb 2016</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            I completed my diploma from this prestigious college.
+                            I successful completed all the credits without any fallout and got A grade overall.
+                        </p>
+                        <!-- BUTTON TRIGGER MODAL -->
+                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-1">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </a>
                     </div>
+                </div>
+            </div>
+
+            <!-- SECOND TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>B</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Bachelor of information technology</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>Arab Open University, Saudi Arabia</small>
+                            </h6>
+                            <h6>
+                                <small>Jan 2018 - ...</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            (Programming path). Studying almost remotly.
+                        </p>
                     </div>
-                    <div class="row-fluid">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 
 
-                                <div class="span4">
-                            <div class="block">
-                                <div class="block-title">
-                                    <h1>Nunc digni</h1>
-                                    <h2>Risus id mediou soim</h2>
+<!--==========================================
+                   SKILLS
+===========================================-->
+<section id="skills" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><i class="title-icon fa fa-sliders"></i>Skills</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div id="skills-card" class="card">
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <!-- FIRST SKILL SECTION -->
+                                <div class="skills-title">
+                                    <h6 class="text-center">Professional</h6>
                                 </div>
-                                <div class="block-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi Sed egestas, ante et vulputate volutpat</p>
-                                    <a href="#"  class="btn" ><i class="fw-icon-circle-arrow-right"></i> more</a>
+                                <!-- FIRST SKILL BAR -->
+                                <div class="skillbar" data-percent="90%">
+                                    <div class="skillbar-title"><span>HTML5</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                                <!-- SECOND SKILL BAR  -->
+                                <div class="skillbar" data-percent="90%">
+                                    <div class="skillbar-title"><span>CSS3</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                                <!-- THIRD SKILL BAR  -->
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>jQuery</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                                <!-- FOURTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="68%">
+                                    <div class="skillbar-title"><span>PHP</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">68%</div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <!-- SECOND SKILL SECTION -->
+                                <div class="skills-title">
+                                    <h6 class="text-center">Personal</h6>
+                                </div>
+                                <!-- FIRST SKILL BAR -->
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>Communication</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <!-- SECOND SKILL BAR  -->
+                                <div class="skillbar" data-percent="60%">
+                                    <div class="skillbar-title"><span>Teamwork</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">60%</div>
+                                </div>
+                                <!-- THIRD SKILL BAR  -->
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>Creativity</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                                <!-- FOURTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>Dedication</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <!-- THIRD SKILL SECTION -->
+                                <div class="skills-title">
+                                    <h6 class="text-center">Software</h6>
+                                </div>
+                                <!-- FIRST SKILL BAR -->
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>Adobe Illustrator</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <!-- SECOND SKILL BAR  -->
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>Adobe InDesign</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                                <!-- THIRD SKILL BAR  -->
+                                <div class="skillbar" data-percent="60%">
+                                    <div class="skillbar-title"><span>PHP Storm</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">60%</div>
+                                </div>
+                                <!-- FOURTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>Dev Console</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">80%</div>
                                 </div>
                             </div>
                         </div>
-
-
-                                <div class="span4">
-                            <div class="block">
-                                <div class="block-title">
-                                    <h1>Vesti bulum </h1>
-                                    <h2>Praesent placerat ris</h2>
-                                </div>
-                                <div class="block-content">
-                                    <p>Jorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi Sed egestas, ante et vulputate volutpat</p>
-                                    <a href="#"  class="btn" ><i class="fw-icon-circle-arrow-right"></i> more</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                                <div class="span4">
-                            <div class="block">
-                                <div class="block-title">
-                                    <h1>Integer vitae</h1>
-                                    <h2>Ut aliquam sollicitudi</h2>
-                                </div>
-                                <div class="block-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi Sed egestas, ante et vulputate volutpa</p>
-                                    <a href="#"  class="btn" ><i class="fw-icon-circle-arrow-right"></i> more</a>
-                                </div>
-                            </div>
-                        </div>
-                         <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                      <h2>Pellen tesque lacinia</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis sed mauris a accumsan. Phasellus quis scelerisque lacus. Aenean nec orci sit amet justo interdum ullamcorper eget eu diam. Integer dictum sem eu adipiscing cursus. Suspendisse posuere dui eu dignissim fermentum. .</p>
-                      <p>Phasellus adipiscing porttitor metus, eget commodo mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut hendrerit ante. Phasellus viverra ligula tortor, ut sodales elit tempus eu. Vestibulum mattis sed purus at laoreet. Proin mattis, ante vel adipiscing porttitor, orci elit venenatis nibh, at molestie tortor dolor sit amet urna.  .</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
+<!--==========================================
+                   EXPERIENCE
+===========================================-->
+<section id="experience" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><i class="title-icon fa fa-suitcase"></i>Experience</h4>
+        </div>
 
+        <div id="timeline-experience">
+
+            <!-- FIRST TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>D</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Web Developer</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>Ekhaa, Chaitable Fundation orphans Care, Riyadh.</small>
+                            </h6>
+                            <h6>
+                                <small>Oct 2017 - Continue...</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            Developing web applications and Mobile apps.
+                        </p>
+                        <!-- BUTTON TRIGGER MODAL -->
+                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-4">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECOND TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>F</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">IT Shift Technician</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>TAV Technologies Airport Suppliers, Riyadh</small>
+                            </h6>
+                            <h6>
+                                <small>Sep 2016 - Oct 2017</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            Supporting and troubleshooting any thicnical issues anywhere around the airport.
+                        </p>
 
                     </div>
                 </div>
+            </div>
 
-
-                    <!-- Featured slider starts here -->
-                <div class="featured-slider">
-                    <h1>Morbi interdum mollis </h1>
-                    <h5>Vestibulum auctor dapibus nequ</h5>
-                    <div id="myCarousel1" class="carousel slide">
-
-                        <div class="carousel-inner">
-                           <div class="item active">
-                                <div class="row-fluid">
-
-                                            <div class="span3">
-                                                <div class="gallery">
-                                                  <img src="img/img1.jpg" class="b-radius-top">
-                                                  <div class="slider-content b-radius-bottom">
-                                                    <span>Tante etvulputa</span>
-                                                  </div>
-                                                </div>
-                                            </div>
-                                            <div class="span3">
-                                                <div class="gallery">
-                                                  <img src="img/img2.jpg" class="b-radius-top">
-                                                  <div class="slider-content b-radius-bottom">
-                                                    <span>Phasellus pede</span>
-                                                  </div>
-                                                </div>
-                                            </div>
-                                            <div class="span3">
-                                                <div class="gallery">
-                                                  <img src="img/img3.jpg" class="b-radius-top">
-                                                  <div class="slider-content b-radius-bottom">
-                                                    <span>Morbi interdum</span>
-                                                  </div>
-                                                </div>
-                                            </div>
-                                            <div class="span3">
-                                                <div class="gallery">
-                                                    <img src="img/img4.jpg" class="b-radius-top">
-                                                      <div class="slider-content b-radius-bottom">
-                                                        <span>Suspendisse mauris</span>
-                                                      </div>
-                                                </div>
-                                            </div>
-
-
-                                </div><!--/row-fluid-->
-                            </div>
-                            <div class="item">
-                                <div class="row-fluid">
-
-                                            <div class="span3">
-                                                <div class="gallery">
-                                                  <img src="img/img1.jpg" class="b-radius-top">
-                                                  <div class="slider-content b-radius-bottom">
-                                                    <span>Tante etvulputa</span>
-                                                  </div>
-                                                </div>
-                                            </div>
-                                            <div class="span3">
-                                                <div class="gallery">
-                                                  <img src="img/img2.jpg" class="b-radius-top">
-                                                  <div class="slider-content b-radius-bottom">
-                                                    <span>Phasellus pede</span>
-                                                  </div>
-                                                </div>
-                                            </div>
-                                            <div class="span3">
-                                                <div class="gallery">
-                                                  <img src="img/img3.jpg" class="b-radius-top">
-                                                  <div class="slider-content b-radius-bottom">
-                                                    <span>Morbi interdum</span>
-                                                  </div>
-                                                </div>
-                                            </div>
-                                            <div class="span3">
-                                                <div class="gallery">
-                                                    <img src="img/img4.jpg" class="b-radius-top">
-                                                      <div class="slider-content b-radius-bottom">
-                                                        <span>Suspendisse mauris</span>
-                                                      </div>
-                                                </div>
-                                            </div>
-
-
-                                </div><!--/row-fluid-->
-                            </div>
-                            <div class="item">
-                                <div class="row-fluid">
-
-                                            <div class="span3">
-                                                <div class="gallery">
-                                                  <img src="img/img1.jpg" class="b-radius-top">
-                                                  <div class="slider-content b-radius-bottom">
-                                                    <span>Tante etvulputa</span>
-                                                  </div>
-                                                </div>
-                                            </div>
-                                            <div class="span3">
-                                                <div class="gallery">
-                                                  <img src="img/img2.jpg" class="b-radius-top">
-                                                  <div class="slider-content b-radius-bottom">
-                                                    <span>Phasellus pede</span>
-                                                  </div>
-                                                </div>
-                                            </div>
-                                            <div class="span3">
-                                                <div class="gallery">
-                                                  <img src="img/img3.jpg" class="b-radius-top">
-                                                  <div class="slider-content b-radius-bottom">
-                                                    <span>Morbi interdum</span>
-                                                  </div>
-                                                </div>
-                                            </div>
-                                            <div class="span3">
-                                                <div class="gallery">
-                                                    <img src="img/img4.jpg" class="b-radius-top">
-                                                      <div class="slider-content b-radius-bottom">
-                                                        <span>Suspendisse mauris</span>
-                                                      </div>
-                                                </div>
-                                            </div>
-
-
-                                </div><!--/row-fluid-->
-                            </div>
-
-                        <!-- Carousel items -->
+            <!-- THIRD TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>U</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Lecturer</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>College of Telecom and Information, Riyadh</small>
+                            </h6>
+                            <h6>
+                                <small>Jun 2016 - Mar 2016</small>
+                            </h6>
                         </div>
-                        <a class="carousel-control left" href="#myCarousel1" data-slide="prev"><i class="fw-icon-chevron-left"></i></a>
-                        <a class="carousel-control right" href="#myCarousel1" data-slide="next"><i class="fw-icon-chevron-right"></i></a>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                          <small><i>On Job Training.</i></small>
+                        </p>
+                        <p>
+                            Teaching computer 101 which is Microsoft Office and basic skills on the computer, to more than 80 student.
+                        </p>
+
                     </div>
                 </div>
-                <div class="hiding">
-                    <h1>Morbi interdum mollis </h1>
-                    <h5>Vestibulum auctor dapibus nequ</h5>
-                    <div class="carousel slide" id="myCarousel2">
-                                    <!-- Carousel items -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img src="img/img1.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="img/img2.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="img/img3.jpg" alt="">
-                            </div>
+            </div>
+
+            <!-- FOURTH TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>S</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">StoreManger</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>Maestro Pizza, Riyadh.</small>
+                            </h6>
+                            <h6>
+                                <small>Feb 2015 - Feb 2016</small>
+                            </h6>
                         </div>
-                        <a class="carousel-control left" href="#myCarousel2" data-slide="prev"><i class="fw-icon-chevron-left"></i></a>
-                        <a class="carousel-control right" href="#myCarousel2" data-slide="next"><i class="fw-icon-chevron-right"></i></a>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                          <small><i>Student in the morring.</i></small>
+                        </p>
+                        <p>
+                            Supervising the store and providing help in need and supporting my team.
+                        </p>
+                        <!-- BUTTON TRIGGER MODAL -->
+                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-5">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>S</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Salesman</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>Jarir Bookstores, Riyadh.</small>
+                            </h6>
+                            <h6>
+                                <small>Feb 2014 - Feb 2015</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <small><i>Student in the morring.</i></small>
+                        <p>
+                            Smart phones salesman in (Jarir Bookstore) for a year.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--==========================================
+                  MODALS
+===========================================-->
+
+<!--MODAL ONE-->
+<div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-1">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <!--MODAL HEADER-->
+            <div class="modal-header  text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel-1">EDUCATION AT X </h4>
+                <h6>
+                    <small>Jan 2014 - Mar 2015</small>
+                </h6>
+            </div>
+            <!--MODAL BODY-->
+            <div class="modal-body">
+                <p>
+                    I have learned a great many things from participating in varsity football.
+                    It has changed my entire outlook on and attitude toward life. Before my
+                    freshman year at [high-school], I was shy, had low self-esteem and turned
+                    away from seemingly impossible challenges. Football has altered all of these
+                    qualities. On the first day of freshman practice, the team warmed up with a
+                    game of touch football. The players were split up and the game began. However,
+                    during the game, I noticed that I didn't run as hard as I could, nor did I try
+                    to evade my defender and get open. The fact of the matter is that I really did
+                    not want to be thrown the ball. I didn't want to be the one at fault if I dropped
+                    the ball and the play didn't succeed. I did not want the responsibility of helping
+                    the team because I was too afraid of making a mistake. That aspect of my character
+                    led the first years of my high school life. All the while, I went to practice.
+                </p>
+            </div>
+            <!--MODAL FOOTER-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--MODAL TWO-->
+<div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <!--MODAL HEADER-->
+            <div class="modal-header  text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel-2">EDUCATION AT Y</h4>
+                <h6>
+                    <small>Jan 2014 - Mar 2015</small>
+                </h6>
+            </div>
+            <!--MODAL BODY-->
+            <div class="modal-body">
+                <p>
+                    I have learned a great many things from participating in varsity football.
+                    It has changed my entire outlook on and attitude toward life. Before my
+                    freshman year at [high-school], I was shy, had low self-esteem and turned
+                    away from seemingly impossible challenges. Football has altered all of these
+                    qualities. On the first day of freshman practice, the team warmed up with a
+                    game of touch football. The players were split up and the game began. However,
+                </p>
+            </div>
+            <!--MODAL FOOTER-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--MODAL THREE-->
+<div class="modal fade" id="myModal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-3">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <!--MODAL HEADER-->
+            <div class="modal-header  text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel-3">EDUCATION AT Z</h4>
+                <h6>
+                    <small>Jan 2014 - Mar 2015</small>
+                </h6>
+            </div>
+            <!--MODAL BODY-->
+            <div class="modal-body">
+                <p>
+                    I have learned a great many things from participating in varsity football.
+                    It has changed my entire outlook on and attitude toward life. Before my
+                    freshman year at [high-school], I was shy, had low self-esteem and turned
+                    away from seemingly impossible challenges. Football has altered all of these
+                    qualities. On the first day of freshman practice, the team warmed up with a
+                    game of touch football. The players were split up and the game began. However,
+                </p>
+            </div>
+            <!--MODAL FOOTER-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--MODAL FOUR-->
+<div class="modal fade" id="myModal-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-4">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <!--MODAL HEADER-->
+            <div class="modal-header  text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel-4">EXPERIENCE AT Z</h4>
+                <h6>
+                    <small>Jan 2014 - Mar 2015</small>
+                </h6>
+            </div>
+            <!--MODAL BODY-->
+            <div class="modal-body">
+                <p>
+                    I have learned a great many things from participating in varsity football.
+                    It has changed my entire outlook on and attitude toward life. Before my
+                    freshman year at [high-school], I was shy, had low self-esteem and turned
+                    away from seemingly impossible challenges. Football has altered all of these
+                    qualities. On the first day of freshman practice, the team warmed up with a
+                    game of touch football. The players were split up and the game began. However,
+                </p>
+            </div>
+            <!--MODAL FOOTER-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--MODAL FIVE-->
+<div class="modal fade" id="myModal-5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-5">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <!--MODAL HEADER-->
+            <div class="modal-header  text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel-5">EXPERIENCE AT M</h4>
+                <h6>
+                    <small>Jan 2014 - Mar 2015</small>
+                </h6>
+            </div>
+            <!--MODAL BODY-->
+            <div class="modal-body">
+                <p>
+                    I have learned a great many things from participating in varsity football.
+                    It has changed my entire outlook on and attitude toward life. Before my
+                    freshman year at [high-school], I was shy, had low self-esteem and turned
+                    away from seemingly impossible challenges. Football has altered all of these
+                    qualities. On the first day of freshman practice, the team warmed up with a
+                    game of touch football. The players were split up and the game began. However,
+                </p>
+            </div>
+            <!--MODAL FOOTER-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--==========================================
+                  PORTFOLIOS
+===========================================-->
+<section id="portfolios" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><i class="title-icon fa fa-archive"></i>Portfolios</h4>
+        </div>
+        <div id="portfolios-card" class="row">
+
+            <!--OPTIONS-->
+            <ul class="nav nav-tabs">
+                <!--ALL CATEGORIES-->
+                <li class="active waves-effect list-shuffle"><a id="all-sample" class="active" href="#all" data-toggle="tab">ALL</a>
+                    <!--CATEGORIES-->
+                <li class="waves-effect list-shuffle"><a class="cate" href="#a" data-toggle="tab">LOGO</a></li>
+                <li class="waves-effect list-shuffle"><a class="cate" href="#b" data-toggle="tab">DRIBBLE</a></li>
+                <li class="waves-effect list-shuffle"><a class="cate" href="#c" data-toggle="tab">WEBSITES</a></li>
+            </ul>
+
+            <!--CATEGORIES CONTENT-->
+            <div class="tab-content">
+
+                <!--All CATEGORIES-->
+                <div id="all"></div>
+
+                <!--CATEGORY 1-->
+                <div id="a">
+
+                    <!--CATEGORY CONTENT ONE BIG-->
+                    <div class="col-md-4 col-sm-12 col-xs-12 grid big inLeft">
+                        <figure class="port-effect">
+                            <img src="images/portfolio.png" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Personal <span>LOGO</span></h2>
+                                <p>Designed this logo in a competition. It was chosen as a winner.</p>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
                     </div>
 
+                    <!--CATEGORY CONTENT TWO SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
+                        <figure class="port-effect">
+                            <img src="images/portfolio.png" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Cafe <span>LOGO</span></h2>
+                                <p>I designed this for a clint for his cafe.</p>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <!--CATEGORY CONTENT THREE SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
+                        <figure class="port-effect">
+                            <img src="images/portfolio.png" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Cafe <span>LOGO</span></h2>
+                                <p>I designed this for a clint for his cafe.</p>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+
+                <!--CATEGORY 2-->
+                <div id="b">
+
+                    <!--CATEGORY CONTENT ONE BIG-->
+                    <div class="col-md-4 col-sm-12 col-xs-12 grid big inRight">
+                        <figure class="port-effect">
+                            <img src="images/portfolio.png" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>T-shirt <span>BRAND</span></h2>
+                                <p>A brand logo designed by me for Silicon Brand</p>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <!--CATEGORY CONTENT TWO SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
+                        <figure class="port-effect">
+                            <img src="images/portfolio.png" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>V-Card <span>MATERIAL</span></h2>
+                                <p>Used latest material design to made this sample</p>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+
+                    <!--CATEGORY CONTENT THREE SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
+                        <figure class="port-effect">
+                            <img src="images/portfolio.png" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Cafe <span>LOGO</span></h2>
+                                <p>I designed this for a clint for his cafe.</p>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+
+                <!--CATEGORY 3-->
+                <div id="c">
+                    <!--CATEGORY CONTENT ONE SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
+                        <figure class="port-effect">
+                            <img src="images/portfolio.png" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>T-shirt <span>BRAND</span></h2>
+                                <p>A brand logo designed by me for Silicon Brand</p>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--CATEGORY CONTENT TWO SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
+                        <figure class="port-effect">
+                            <img src="images/portfolio.png" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Sport <span>WEBSITE</span></h2>
+                                <p>Made this for DECo Sports LTD.</p>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--CATEGORY CONTENT THREE SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
+                        <figure class="port-effect">
+                            <img src="images/portfolio.png" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Corporate <span>WEBSITE</span></h2>
+
+                                <p>Made this for Lance Corporation UK</p>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <!--CATEGORY CONTENT FOUR SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
+                        <figure class="port-effect">
+                            <img src="images/portfolio.png" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>T-shirt <span>BRAND</span></h2>
+                                <p>A brand logo designed by me for Silicon Brand</p>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--CATEGORY CONTENT FIVE SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
+                        <figure class="port-effect">
+                            <img src="images/portfolio.png" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Sport <span>WEBSITE</span></h2>
+                                <p>Made this for DECo Sports LTD.</p>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--CATEGORY CONTENT SIX SMALL-->
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
+                        <figure class="port-effect">
+                            <img src="images/portfolio.png" class="img-responsive" alt="portfolio-demo"/>
+                            <figcaption>
+                                <h2>Corporate <span>WEBSITE</span></h2>
+
+                                <p>Made this for Lance Corporation UK</p>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <!--PORTFOLIOS ADD GALLERY BUTTON-->
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <button id="add-more" class="center-block btn-large waves-effect"><i id="port-add-icon" class="fa fa-plus"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--==========================================
+                   INTEREST
+===========================================-->
+<section id="interest" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><i class="title-icon fa fa-heart"></i>Interest</h4>
+        </div>
+
+        <div id="interest-card" class="card">
+            <!--INTEREST TEXT-->
+            <div class="card-content">
+                <p>
+                    First of all I love music, country music is my favorite. Love watching
+                    football, movies and playing games with my buddies. I spend quite a lot of time
+                    in traveling and photography, these keeps me fresh for working environment.
+                    I also spend time volunteering at the Red Cross in London, UK each month.
+                </p>
+            </div>
+
+            <!--INTEREST ICONS-->
+            <div class="row no-gutters">
+
+                <!--INTEREST ICON ONE-->
+                <div class="col-md-2 col-sm-4 col-xs-6  box text-center">
+                    <div class="interest-icon">
+                        <i class="fa fa-music"></i>
+                        <span>Music</span>
+                    </div>
+                </div>
+                <!--INTEREST ICON TWO-->
+                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                    <div class="interest-icon-even">
+                        <i class="fa fa-gamepad"></i>
+                        <span>Gaming</span>
+                    </div>
+                </div>
+                <!--INTEREST ICON THREE-->
+                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                    <div class="interest-icon">
+                        <i class="fa fa-camera"></i>
+                        <span>Photography</span>
+                    </div>
+                </div>
+                <!--INTEREST ICON FOUR-->
+                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                    <div class="interest-icon-even">
+                        <i class="fa fa-futbol-o"></i>
+                        <span>Football</span>
+                    </div>
+                </div>
+                <!--INTEREST ICON FIVE-->
+                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                    <div class="interest-icon">
+                        <i class="fa fa-plane"></i>
+                        <span>Traveling</span>
+                    </div>
+                </div>
+                <!--INTEREST ICON SIX-->
+                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                    <div class="interest-icon-even">
+                        <i class="fa fa-film"></i>
+                        <span>Movies</span>
+                    </div>
                 </div>
 
             </div>
-            <div class="container b-radius-bottom" style="background-color: #052358">
-                <div class="site-footer">
-                                    <div class="copy-rights">
-                    Copyright (c) healthcare. All rights reserved.  Designed by: <a href="#"> www.healthcare.com.</a>
-                </div>
-                </div>
+        </div>
+    </div>
+</section>
 
 
+<!--==========================================
+             TESTIMONIALS AND CLIENTS
+===========================================-->
+<section id="testimonials" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><i class="title-icon fa fa-users"></i>Testimonials</h4>
+        </div>
+        <div id="testimonials-card" class="row card">
+            <div class="col-md-12 col-xs-12">
+                <!-- CLIENTS SLIDER-->
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- INDICATORS -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+                    <!-- WRAPPER FOR SLIDES -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="col-md-12">
+                                <!--CLIENT IMAGE-->
+                                <div class="ben center-block">
+                                    <img alt="client-image" class="center-block" src="images/client.png">
+                                </div>
+                                <!--CLIENT QUOTE-->
+                                <blockquote>
+                                    I work with John on several web development projects and I find him to be extremely
+                                    creative and a technical Front End Developer. Jone expertise involves building
+                                    complex
+                                    Responsive Design layouts using HTML 5, CSS3, and JavaScript.
+                                    <cite>Mike, CEO, IT World.</cite>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="col-md-12">
+                                <!--CLIENT IMAGE-->
+                                <div class="ben center-block">
+                                    <img alt="client-image" class="center-block" src="images/client.png">
+                                </div>
+                                <!--CLIENT QUOTE-->
+                                <blockquote>
+                                    I work with John on several web development projects and I find him to be extremely
+                                    creative and a technical Front End Developer. Jone expertise involves building
+                                    complex
+                                    Responsive Design layouts using HTML 5, CSS3, and JavaScript.
+                                    <cite>Mike, CEO, IT World.</cite>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="col-md-12">
+                                <!--CLIENT IMAGE-->
+                                <div class="ben center-block">
+                                    <img alt="client-image" class="center-block" src="images/client.png">
+                                </div>
+                                <!--CLIENT QUOTE-->
+                                <blockquote>
+                                    I work with John on several web development projects and I find him to be extremely
+                                    creative and a technical Front End Developer. Jone expertise involves building
+                                    complex
+                                    Responsive Design layouts using HTML 5, CSS3, and JavaScript.
+                                    <cite>Mike, CEO, IT World.</cite>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="col-md-12">
+                                <!--CLIENT IMAGE-->
+                                <div class="ben center-block">
+                                    <img alt="client-image" class="center-block" src="images/client.png">
+                                </div>
+                                <!--CLIENT QUOTE-->
+                                <blockquote>
+                                    I work with John on several web development projects and I find him to be extremely
+                                    creative and a technical Front End Developer. Jone expertise involves building
+                                    complex
+                                    Responsive Design layouts using HTML 5, CSS3, and JavaScript.
+                                    <cite>Mike, CEO, IT World.</cite>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+        <div id="clients">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="clients-wrap">
+                            <!--CLIENT LOGO'S-->
+                            <ul id="clients-list" class="clearfix">
+                                <li><img src="images/logo.png" alt="client-logo"></li>
+                                <li><img src="images/logo.png" alt="client-logo"></li>
+                                <li><img src="images/logo.png" alt="client-logo"></li>
+                                <li><img src="images/logo.png" alt="client-logo"></li>
+                                <li><img src="images/logo.png" alt="client-logo"></li>
+                                <li><img src="images/logo.png" alt="client-logo"></li>
+                                <li><img src="images/logo.png" alt="client-logo"></li>
+                                <li><img src="images/logo.png" alt="client-logo"></li>
+                                <li><img src="images/logo.png" alt="client-logo"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-       <script src="js/jquery-1.9.1.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/imagesloaded.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/AnimOnScroll.js"></script>
+<!--==========================================
+             BLOG
+===========================================-->
+<section id="blog" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><i class="title-icon fa fa-pencil-square"></i>Blog</h4>
+        </div>
+        <div id="blog-card" class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="card">
+                    <!--BLOG ODD-->
+                    <div class="blog odd">
+                        <!--IMAGE-->
+                        <div class="image">
+                            <img alt="blog-image" src="images/blog.png"/>
+                            <div class="image-overlay"></div>
+                        </div>
+                        <!--DETAILS-->
+                        <div class="content">
+                            <ol class="breadcrumb">
+                                <li><a href="#">Frontend</a></li>
+                                <li><a href="#">Design</a></li>
+                                <li class="active">Material</li>
+                            </ol>
+                            <h6>Material Design</h6>
+                            <p>
+                                Web design encompasses many different skills and disciplines in the production
+                                of websites.Web design include web graphic design, interface design etc.
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <!--BLOG EVEN-->
+                    <div class="blog even">
+                        <!--IMAGE-->
+                        <div class="image">
+                            <img alt="blog-image" src="images/blog.png"/>
+                            <div class="image-overlay"></div>
+                        </div>
+                        <!--DETAILS-->
+                        <div class="content">
+                            <ol class="breadcrumb">
+                                <li><a href="#">Backend</a></li>
+                                <li><a href="#">Dev</a></li>
+                                <li class="active">Shortcuts</li>
+                            </ol>
+                            <h6>Development Shortcut</h6>
+                            <p>
+                                Web development is a broad term for the work involved in developing a web site
+                                for the Internet or an intranet. Now lets get a bit deeper in this topic
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <!--BLOG ODD-->
+                    <div class="blog odd">
+                        <!--IMAGE-->
+                        <div class="image">
+                            <img alt="blog-image" src="images/blog.png"/>
+                            <div class="image-overlay"></div>
+                        </div>
+                        <!--DETAILS-->
+                        <div class="content">
+                            <ol class="breadcrumb">
+                                <li><a href="#">Frontend</a></li>
+                                <li><a href="#">Specs</a></li>
+                                <li class="active">UI</li>
+                            </ol>
+                            <h6>A Good UI</h6>
+                            <p>
+                                The user interface (UI), in the industrial design field of human–machine
+                                interaction, is the space where interactions between humans and machines occur.
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
 
-    <script>
-      new AnimOnScroll( document.getElementById( 'grid' ), {
-        minDuration : 0.4,
-        maxDuration : 0.7,
-        viewportFactor : 0.2
-      } );
-    </script>
-<script>
-$('#myCarousel').carousel({
-    interval: 1800
-});
-</script>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--SCROLL TO TOP-->
+<div id="scroll-top">
+    <div id="scrollup"><i class="fa fa-angle-up"></i></div>
+</div>
+
+<!--==========================================
+                      FOOTER
+===========================================-->
+
+<footer>
+    <div class="container">
+        <!--FOOTER DETAILS-->
+        <p class="text-center">
+            © Material CV. All right reserved by
+            <a href="http://trimatrixlab.com/" target="_blank">
+                <strong>Trimatrixlab</strong>
+            </a>
+        </p>
+    </div>
+</footer>
+
+<!-- ================== SCRIPTS ================== -->
+<script src="javascript/jquery-2.1.3.min.js"></script>
+<script src="javascript/bootstrap.min.js"></script>
+<script src="javascript/materialize.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR API KEY"></script>
+<script src="javascript/markerwithlabel.min.js"></script>
+<script src="javascript/retina.min.js"></script>
+<script src="javascript/scrollreveal.min.js"></script>
+<script src="javascript/jquery.touchSwipe.min.js"></script>
+<script src="javascript/custom.js"></script>
 
 
-
-
-   </body>
+</body>
 </html>
